@@ -1,0 +1,115 @@
+https://youtu.be/49QnptPLNp4
+
+
+.aboutme{
+    display: flex;
+    justify-content: space-around;
+}
+.dis{
+    display: block;
+    width: fit-content;
+    text-align: justify;
+    font-size: 1.5em;
+    color: #3d535f;
+
+}  
+#ing2{
+    background-color: #3d535f;
+    height: 350px;
+    width: 300px;
+}
+  .row{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  .column2
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  song link:https://youtu.be/G8x1nt_8GUo
+
+  color combo
+
+  
+Certainly! Let's add colors for the navigation bar and cards to the previous dark theme color combinations:
+
+1. **Slate Gray and Light Gray:**
+   - Main Font: #B0C4DE (Light Steel Blue)
+   - Secondary Font: #D3D3D3 (Light Gray)
+   - Background: #2F2F2F (Dark Slate Gray)
+   - Navigation Bar: #333333 (Dark Gray)
+   - Cards: #1E1E1E (Dark Grayish)
+
+2. **Teal and Silver:**
+   - Main Font: #008080 (Teal)
+   - Secondary Font: #C0C0C0 (Silver)
+   - Background: #303030 (Dark Gray)
+   - Navigation Bar: #2F4F4F (Dark Slate Gray)
+   - Cards: #1E1E1E (Dark Grayish)
+
+3. **Royal Purple and Lavender:**
+   - Main Font: #6A5ACD (Slate Blue)
+   - Secondary Font: #E6E6FA (Lavender)
+   - Background: #1A1A1A (Almost Black)
+   - Navigation Bar: #1F1F1F (Deep Gray)
+   - Cards: #333333 (Dark Gray)
+
+4. **Crimson and Rosy Brown:**
+   - Main Font: #DC143C (Crimson)
+   - Secondary Font: #BC8F8F (Rosy Brown)
+   - Background: #1E1E1E (Dark Grayish)
+   - Navigation Bar: #333333 (Dark Gray)
+   - Cards: #222222 (Very Dark Gray)
+
+5. **Emerald Green and Dark Sea Green:**
+   - Main Font: #2E8B57 (Sea Green)
+   - Secondary Font: #8FBC8F (Dark Sea Green)
+   - Background: #222222 (Very Dark Gray)
+   - Navigation Bar: #333333 (Dark Gray)
+   - Cards: #1F1F1F (Deep Gray)
+
+6. **Goldenrod and Dark Khaki:**
+   - Main Font: #DAA520 (Goldenrod)
+   - Secondary Font: #BDB76B (Dark Khaki)
+   - Background: #303030 (Dark Gray)
+   - Navigation Bar: #1F1F1F (Deep Gray)
+   - Cards: #2F2F2F (Dark Slate Gray)
+
+7. **Orange and Light Salmon:**
+   - Main Font: #FFA500 (Orange)
+   - Secondary Font: #FFA07A (Light Salmon)
+   - Background: #1F1F1F (Deep Gray)
+   - Navigation Bar: #2F4F4F (Dark Slate Gray)
+   - Cards: #333333 (Dark Gray)
+
+8. **Deep Sky Blue and Dark Cyan:**
+   - Main Font: #00BFFF (Deep Sky Blue)
+   - Secondary Font: #008B8B (Dark Cyan)
+   - Background: #252525 (Dark Gray)
+   - Navigation Bar: #1F1F1F (Deep Gray)
+   - Cards: #2F2F2F (Dark Slate Gray)
+
+9. **Ruby Red and Dark Orchid:**
+   - Main Font: #D02090 (Violet Red)
+   - Secondary Font: #9932CC (Dark Orchid)
+   - Background: #1A1A1A (Almost Black)
+   - Navigation Bar: #333333 (Dark Gray)
+   - Cards: #222222 (Very Dark Gray)
+
+10. **Deep Pink and Dim Gray:**
+    - Main Font: #FF1493 (Deep Pink)
+    - Secondary Font: #696969 (Dim Gray)
+    - Background: #1C1C1C (Very Dark Gray)
+    - Navigation Bar: #2F2F2F (Dark Slate Gray)
+    - Cards: #1F1F1F (Deep Gray)
+
+
+theam 1
+ --main-bg-color: #00BFFF;
+    --sec-bg-color: #008B8B;
+    --back-bg-color: #252525;
+    --nav-bg-color: #1F1F1F;
+    --card-bg-color: #2F2F2F;
