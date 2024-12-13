@@ -15,6 +15,7 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 *{
     margin: 0;
@@ -190,6 +191,7 @@ p{
 
 }
 button{
+    
     outline: none;
     border: none;
     border-radius: 6px;
@@ -245,19 +247,13 @@ button:hover{
     
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    
-  }
 
-  #img2{
-    padding: 25px;
-    border: 10px solid #f8f6fa;
-    height: 500px;
-    width: 500px;
-  }
+ .column {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
   .row:after {
     content: "";
     display: table;
@@ -414,6 +410,7 @@ textarea:focus, input:focus{
     margin-top: 12px;
 }
 .right-side .button input[type="submit"]{
+    margin-top: 25px;
     color: #fff;
     font-size: 18px;
     outline: none;
@@ -539,4 +536,22 @@ section .skill{
     font-size: 30px;
     color: #fff;
     margin: 25px 10px;
+}
+
+
+.animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: myAnimation 5s; /* Applying the animation */
+}
+
+@keyframes myAnimation {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
