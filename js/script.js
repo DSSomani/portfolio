@@ -1,9 +1,7 @@
-var menu = document.getElementById('manu-icon');
-let navbar = document.querySelector('.navItems');
+const menuIcon = document.getElementById('menu-icon');
+const navbar = document.querySelector('.nav-items');
 
-
-menu.onclick = function() {
-  menu.classList.toggle('fa-xmark');
-  
+menuIcon.onclick = function() {
+  menuIcon.classList.toggle('fa-xmark');
   navbar.classList.toggle('open');
 };
