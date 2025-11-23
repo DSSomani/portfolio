@@ -230,19 +230,25 @@ window.addEventListener('load', () => {
 
 // Add konami code easter egg
 let konamiCode = [];
-const konamiSequence = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+const konamiSequence = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'KeyB', 'KeyA'];
 let cheatModeActive = false;
 
 document.addEventListener('keydown', (e) => {
-  konamiCode.push(e.key);
+  // Use e.code instead of e.key for more reliable detection
+  konamiCode.push(e.code);
   konamiCode = konamiCode.slice(-10);
   
+  // Also log for debugging (remove this later if you want)
+  console.log('Key pressed:', e.code, '| Current sequence:', konamiCode.join(','));
+  
   if (konamiCode.join(',') === konamiSequence.join(',')) {
+    console.log('Konami code activated!');
     if (cheatModeActive) {
       deactivateCheatMode();
     } else {
       activateCheatMode();
     }
+    konamiCode = []; // Reset after activation
   }
 });
 

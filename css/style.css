@@ -1344,7 +1344,7 @@ body::after {
 
 /* Add retro game life bar indicator (decorative) */
 .navbar::after {
-    /* content: 'LIVES: ███'; */
+    content: 'LIVES: ███';
     position: absolute;
     right: 2rem;
     top: 50%;
